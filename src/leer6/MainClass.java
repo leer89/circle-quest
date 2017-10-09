@@ -30,10 +30,10 @@ public class MainClass {
         double radius;
         double height;
         
-        char keep_going = 'y';
+
         
         OUTER:
-        while (keep_going == 'y') {
+        {
             Scanner sc = new Scanner(System.in);
             System.out.println("CITP130 - Object Oriented Programming, "
                     + "Assignment 04");
